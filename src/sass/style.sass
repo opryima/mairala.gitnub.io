@@ -1,3 +1,6 @@
+body
+    font-family: 'Raleway', sans-serif;
+
 .container
     max-width: 1230px
     margin: 0 auto
@@ -16,7 +19,6 @@
         list-style: none
     &__menu-li
         margin-right: 40px
-        font-family: Raleway, sans-serif
         font-size: 12px
         font-weight: 400
         line-height: 15px
@@ -25,6 +27,9 @@
         a 
             text-decoration: none
             color: #ffffff
+            &:hover
+                border-bottom: 5px solid #7b6c63
+                padding-bottom: 13px 
     &__menu-li:last-child
         margin-right: 0        
         
@@ -33,3 +38,36 @@
     background: url('../img/promo-bg-1.jpg') center (center/cover) no-repeat
     padding-top: 285px
     padding-bottom: 184px
+    &__subheader
+        color: #ffffff
+        font-size: 24px
+        font-weight: 600
+        line-height: 30px
+        text-transform: uppercase
+        letter-spacing: 2.4px
+    &__header
+        color: #ffffff
+        font-size: 66px
+        font-weight: 400
+        line-height: 75px
+        text-transform: uppercase
+        letter-spacing: 1.65px
+        span
+            color: #7b6c63
+            font-weight: 600
+    &__button
+        display: block
+        text-decoration: none
+        width: 264px
+        height: 60px
+        background-color: rgba(255, 255, 255, 0.1)
+        color: #ffffff
+        font-size: 16px
+        font-weight: 400
+        text-transform: uppercase
+        letter-spacing: 1.6px
+        margin-top: 69px
+        padding: 18px 75px
+        &:hover
+            text-decoration: none
+            color: #ffffff
